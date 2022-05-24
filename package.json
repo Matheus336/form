@@ -1,0 +1,24 @@
+{
+  "name": "myapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest -dev --detectOpenHandles",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jest": "^28.1.0",
+    "node": "^17.7.2",
+    "nodemon": "^2.0.16",
+    "pg-promise": "^10.11.1"
+  }
+}
